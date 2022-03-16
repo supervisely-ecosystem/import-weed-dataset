@@ -1,0 +1,15 @@
+{
+  "name": "Import Weed Dataset",
+  "type": "app",
+  "categories": [
+    "Images"
+  ],
+  "description": "Import Weed Dataset",
+  "docker_image": "supervisely/base-py-sdk:6",
+  "main_script": "src/main.py",
+  "task_location": "workspace_tasks",
+  "isolate": true,
+  "headless": true,
+  "icon": "https://i.imgur.com/JwZprvR.png",
+  "icon_background": "#FFFFFF"
+}
