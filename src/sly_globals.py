@@ -33,7 +33,7 @@ class_name_weed = 'weed'
 class_name_carrot = 'carrot'
 
 index_to_class = {'weed': 1, 'carrot': 2}
-max_label_area = 1000
+max_label_area = 10000
 
 batch_size = 30
 
