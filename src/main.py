@@ -26,7 +26,7 @@ def create_ann(img_path):
 
     for class_name, class_index in g.index_to_class.items():
         bool_mask = ann_mask == class_index
-        ret, curr_mask = connectedComponents(bool_mask.astype('uint8'), connectivity=4)
+        ret, curr_mask = connectedComponents(bool_mask.astype('uint8'), connectivity=8)
         for i in range(1, ret):
             obj_mask = curr_mask == i
             if obj_mask.sum() < g.max_label_area:
