@@ -35,7 +35,7 @@ class_name_carrot = 'carrot'
 index_to_class = {'weed': 1, 'carrot': 2}
 max_label_area = 3000
 
-batch_size = 1
+batch_size = 3
 
 obj_class_weed = sly.ObjClass(class_name_weed, sly.Bitmap)
 obj_class_carrot = sly.ObjClass(class_name_carrot, sly.Bitmap)
