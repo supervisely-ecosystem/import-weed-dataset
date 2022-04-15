@@ -8,6 +8,29 @@ from supervisely.imaging.image import read
 from cv2 import connectedComponents
 
 
+
+#========================================================================================================
+
+
+
+
+
+
+#========================================================================================================
+# import cv2
+# a = cv2.imread('/home/andrew/alex_work/temp/leafs_ds/temp/00000_labels:png.png')
+# import numpy as np
+# test = np.unique(a)
+# cv2.imwrite('/home/andrew/alex_work/temp/leafs_ds/temp/testb.png', a * 40)
+# a = sly.io.json.load_json_file('/home/andrew/alex_work/temp/leafs_ds/temp/ImgOldImgNew-validation-data/val/via_region_data.json')
+# b = sly.io.json.load_json_file('/home/andrew/alex_work/temp/leafs_ds/temp/kinetics700_2020/train.json')
+#
+
+import scipy.io
+mat = scipy.io.loadmat('/home/andrew/alex_work/temp/leafs_ds/temp/full_dataset.mat')
+a=0
+
+
 def get_image_shape(img_path):
     im = read(img_path)
 
