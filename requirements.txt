@@ -1,4 +1,4 @@
-supervisely==6.7.22
-supervisely[apps]==6.7.22
+supervisely==6.35.0
+supervisely[apps]==6.35.0
 gdown
 scipy
